@@ -1,0 +1,117 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/lalo/Mentorship/WK3_CrowdfundingApp/Hoodcoin-crowdsale/contracts/Crowdsale.sol": {
+      "lastModificationDate": 1711230142854,
+      "contentHash": "35207bf4d93e0d27d6a197eaf569b698",
+      "sourceName": "contracts/Crowdsale.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Token.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Crowdsale"
+      ]
+    },
+    "/home/lalo/Mentorship/WK3_CrowdfundingApp/Hoodcoin-crowdsale/contracts/Token.sol": {
+      "lastModificationDate": 1711230142854,
+      "contentHash": "c93f2336a1bd777785324249d13bd02b",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/lalo/Mentorship/WK3_CrowdfundingApp/Hoodcoin-crowdsale/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1711230175499,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
